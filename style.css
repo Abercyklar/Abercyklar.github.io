@@ -1,8 +1,10 @@
 body, html {
     max-height: 1080px;
+    min-height: 1080px;
     overflow: hidden;
     margin: 0;
     max-width: 1920px;
+    min-width: 1920px;
 }
 
 .logga {
