@@ -8,7 +8,7 @@ body, html {
 }
 
 .logga {
-    height: 5vw; 
+    height: 10%; 
     width: 10%;
     background: url(Bilder/Aber\ cyklar\ logga\ test.PNG);
     background-repeat: no-repeat;
@@ -82,21 +82,21 @@ body, html {
     background-color: white;
     box-shadow: 0 0 15px #000000bb;
     border-radius: 0.5vw;
-    width: 26vw;
-    height: 3vw;
+    width: 26%;
+    height: 6%;
     line-height: 1.5;
     transform: translateY(-32vw);
-    left: 37vw;
+    left: 37%;
     position: absolute;
 }
 
 .Knappcontainer {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 2.5vw;
-    padding: 0.3vw;
+    grid-gap: 2.5%;
+    padding: 0.3%;
     position: absolute;
-    top: 1.3vw;
+    top: 3%;
     width: auto;
     margin-left: 25vw;
 }
@@ -123,11 +123,10 @@ body, html {
 .iconcontainer {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 2vw;
-    padding: 0.5vw;
+    grid-gap: 50%;
     position: absolute;
-    top: 1vw;
-    margin-left: 91vw;
+    top: 3%;
+    margin-left: 91%;
 }
 
 .icon img {
