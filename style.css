@@ -116,8 +116,8 @@ body, html {
 }
 
 .Knapp:hover {
-    scale: 110%;
-    transition: 0.2s 0s;
+    -webkit-transform:scale(1.10);
+    transition: 0.2s;
 }
 
 .iconcontainer {
@@ -197,7 +197,7 @@ body, html {
 }
 
 .Prod:hover {
-    scale: 110%;
+    -webkit-transform:scale(1.10);
     transition: 0.5s 0s;
 }
 
