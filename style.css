@@ -8,7 +8,7 @@ body, html {
 }
 
 .logga {
-    height: 10%; 
+    height: 5vw; 
     width: 10%;
     background: url(Bilder/Aber\ cyklar\ logga\ test.PNG);
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body, html {
     font-family: "Montserrat";
     font-weight: bolder;
     letter-spacing: -0.061em;
-    font-weight: 700;
+    font-weight: 700vw;
     transform: translateY(-35vw);
 }
 
@@ -82,21 +82,21 @@ body, html {
     background-color: white;
     box-shadow: 0 0 15px #000000bb;
     border-radius: 0.5vw;
-    width: 26%;
-    height: 6%;
+    width: 26vw;
+    height: 3vw;
     line-height: 1.5;
     transform: translateY(-32vw);
-    left: 37%;
+    left: 37vw;
     position: absolute;
 }
 
 .Knappcontainer {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 2.5%;
-    padding: 0.3%;
+    grid-gap: 2.5vw;
+    padding: 0.3vw;
     position: absolute;
-    top: 3%;
+    top: 1.3vw;
     width: auto;
     margin-left: 25vw;
 }
@@ -116,17 +116,18 @@ body, html {
 }
 
 .Knapp:hover {
-    scale: 110%;
-    transition: 0.2s 0s;
+    -webkit-transform:scale(1.10);
+    transition: 0.2s;
 }
 
 .iconcontainer {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 50%;
+    grid-gap: 2vw;
+    padding: 0.5vw;
     position: absolute;
-    top: 3%;
-    margin-left: 91%;
+    top: 1vw;
+    margin-left: 91vw;
 }
 
 .icon img {
@@ -196,7 +197,7 @@ body, html {
 }
 
 .Prod:hover {
-    scale: 110%;
+    -webkit-transform:scale(1.10);
     transition: 0.5s 0s;
 }
 
