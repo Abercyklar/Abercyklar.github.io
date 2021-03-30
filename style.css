@@ -24,11 +24,11 @@ body, html {
     font-weight: bolder;
     letter-spacing: -0.061em;
     font-weight: 700vw;
-    transform: translateY(-35vw);
 }
 
 .MainText h1 {
     font-size: 12vw;
+    transform: translateY(-35vw);
     font-weight: bold;
     color: rgb(255, 255, 255);
     margin: 0%;
@@ -42,16 +42,17 @@ body, html {
     color: rgb(255, 255, 255);
     margin: 0%;
     line-height: 85%;
-    position: relative;
-    -webkit-transform: translateY(-200%);
+    position: absolute;
+    top: 6vw;
     text-shadow: 0 0 2vw #000000bb;
+    width: 100%;
 }
 
 .MainText p {
     font-size: 10.2vw;
+    transform: translateY(-35vw);
     font-weight: bold;
     color: white;
-    top: 25%;
     left: 50%;
     margin: 0%;
     line-height: 80%;
