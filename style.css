@@ -34,6 +34,7 @@ body, html {
     line-height: 85%;
     text-shadow: 0 0 2vw #000000bb;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .MainText h2 {
@@ -47,6 +48,7 @@ body, html {
     text-shadow: 0 0 2vw #000000bb;
     width: 100%;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .MainText p {
@@ -176,6 +178,7 @@ body, html {
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity 0.2s, visibility 0s;
+    transition: opacity 0.2s, visibility 0s;
     position: relative;
 }
 
@@ -218,6 +221,7 @@ body, html {
     height: 25vw;
     border-radius: 0.4vw;
     box-shadow: 0 0 15px #000000bb;
+    color: rgb(5, 39, 148);
 }
 
 .Prod:hover {
@@ -230,4 +234,8 @@ body, html {
     width: 16vW;
     height: 16vw;
     margin-bottom: 1vw;
+}
+
+.Pris {
+    color: black;
 }
